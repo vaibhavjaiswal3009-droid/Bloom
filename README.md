@@ -117,49 +117,6 @@ Bloom takes a different approach by creating a supportive companion that encoura
 
 ---
 
-## 📸 Screenshots
-
-### 🌿 Welcome Page
-A clean and welcoming landing page introducing Bloom and its purpose.
-
-![Welcome Page](assets/screenshots/welcome.png)
-
----
-
-### 🤝 Meet Your Companion
-Personalize your experience by naming your wellness companion before beginning your journey.
-
-![Meet Your Companion](assets/screenshots/meet-companion.png)
-
----
-
-### 📝 Daily Wellness Check-in
-A simple, guided questionnaire that helps users reflect on their daily wellbeing.
-
-![Daily Check-in](assets/screenshots/daily-checkin.png)
-
----
-
-### 📊 Dashboard
-View today's wellness summary along with a personalized message from your companion.
-
-![Dashboard](assets/screenshots/dashboard.png)
-
----
-
-### 🌱 Wellness Journey
-Review previous check-ins and track your wellness habits over time.
-
-![Wellness Journey](assets/screenshots/history.png)
-
----
-
-### 📱 Mobile Responsive Design
-Bloom provides a seamless experience across desktop and mobile devices.
-
-![Mobile View](assets/screenshots/mobile.png)
----
-
 ## 📱 Responsive Design
 
 Bloom is designed to work seamlessly across:
