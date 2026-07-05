@@ -1,0 +1,242 @@
+/* ===========================
+   Meet Bloom Screen
+=========================== */
+
+.meet-bloom{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:4rem 1.5rem;
+}
+
+.meet-card{
+    width:100%;
+    max-width:760px;
+
+    background:var(--surface);
+    border-radius:24px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+    padding:3rem;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+
+    gap:2rem;
+}
+
+/* ===========================
+   Brand
+=========================== */
+
+.meet-card .brand{
+    align-self:flex-start;
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.meet-card .hero-title{
+    margin:0;
+}
+
+.meet-card .hero-description{
+    max-width:560px;
+    line-height:1.8;
+    color:var(--text-secondary);
+    margin-top:-.75rem;
+}
+
+/* ===========================
+   Companion
+=========================== */
+
+.meet-mascot{
+    display:flex;
+    justify-content:center;
+}
+
+.meet-mascot img{
+    width:180px;
+    height:auto;
+    animation:float 3.5s ease-in-out infinite;
+}
+
+/* ===========================
+   Divider
+=========================== */
+
+.meet-divider{
+    width:100%;
+    border:none;
+    border-top:1px solid #E4EFE3;
+}
+
+/* ===========================
+   Features
+=========================== */
+
+.meet-features{
+    width:100%;
+}
+
+.meet-features h2{
+    margin-bottom:1.75rem;
+}
+
+.feature-card{
+
+    display:flex;
+    align-items:flex-start;
+
+    gap:1rem;
+
+    padding:1.2rem 1.4rem;
+
+    background:#F7FBF6;
+
+    border:1px solid #E4EFE3;
+
+    border-radius:18px;
+
+    transition:.25s ease;
+
+    margin-bottom:1rem;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 22px rgba(91,170,104,.12);
+
+    border-color:#CBE4C9;
+}
+
+.feature-card svg{
+
+    width:24px;
+    height:24px;
+
+    color:var(--primary);
+
+    flex-shrink:0;
+
+    margin-top:2px;
+}
+
+.feature-card div{
+
+    text-align:left;
+}
+
+.feature-card h3{
+
+    margin:0 0 .35rem;
+
+    font-size:1.05rem;
+}
+
+.feature-card p{
+
+    margin:0;
+
+    color:var(--text-secondary);
+
+    line-height:1.6;
+
+    font-size:.95rem;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+#letsBeginBtn{
+
+    margin-top:.5rem;
+
+    padding:.9rem 2.5rem;
+}
+
+/* ===========================
+   Floating Animation
+=========================== */
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    .meet-card{
+
+        padding:2rem 1.5rem;
+
+    }
+
+    .meet-card .brand{
+
+        align-self:center;
+
+    }
+
+    .meet-mascot img{
+
+        width:150px;
+
+    }
+
+    .feature-card{
+
+        padding:1rem;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .meet-card{
+        padding:2rem 1.5rem;
+    }
+
+    .meet-mascot img{
+        width:180px;
+    }
+
+    .feature-card{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .feature-card div{
+        text-align:center;
+    }
+
+    .brand{
+        align-self:center;
+    }
+
+}

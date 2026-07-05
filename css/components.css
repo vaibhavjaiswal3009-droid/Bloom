@@ -1,0 +1,20 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-medium);
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-md);
+    transition: var(--transition-fast);
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--surface);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+}

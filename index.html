@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/onboarding.css" />
+    <link rel="stylesheet" href="css/meetBloom.css" />
+    <link rel="stylesheet" href="css/daily-checkin.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+  <body>
+    <main>
+
+    <!-- =========================
+         Welcome Screen
+    ========================== -->
+
+    <section id="welcome" class="welcome hidden">
+
+        <div class="welcome-content">
+
+            <div class="brand">
+                <img src="assets/logo/bloom-logo.png"
+                     class="logo-img"
+                     alt="Bloom logo">
+
+                <span id="companionBrand" class="brand-name">Bloom</span>
+            </div>
+
+            <h1 class="hero-title">
+                Your friendly wellness companion for student life.
+            </h1>
+
+            <p class="hero-description">
+                Build healthier habits through daily check-ins,
+                wellness insights, and encouraging conversations.
+            </p>
+
+            <ul class="feature-list">
+                <li>Daily mood check-ins</li>
+                <li>Personalized wellness insights</li>
+                <li>Gentle support from your companion</li>
+            </ul>
+
+            <button id="getStartedBtn"
+                    class="btn btn-primary">
+                Get Started
+            </button>
+
+        </div>
+
+        <div class="welcome-image">
+            <img src="assets/illustrations/welcomeScreen.png"
+                 alt="Welcome Illustration">
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Introduction Page
+    ========================== -->
+
+    <section id="onboarding"
+             class="onboarding hidden">
+
+        <div class="onboarding-content">
+
+            <div class="brand">
+                <img src="assets/logo/bloom-logo.png"
+                     class="logo-img"
+                     alt="Bloom logo">
+            </div>
+
+            <h1 class="hero-title">
+                Before we begin, let's introduce ourselves.
+            </h1>
+
+            <p class="hero-description">
+                Tell me your name first, then choose one for me.
+            </p>
+
+            <form class="companion-form">
+
+                <label for="userName">
+                    What should I call you?
+                </label>
+
+                <input
+                    type="text"
+                    id="userName"
+                    placeholder="e.g. Vaibhav">
+
+                <label for="companionName">
+                    What would you like to call me?
+                </label>
+
+                <input
+                    type="text"
+                    id="companionName"
+                    placeholder="e.g. Bloom">
+
+            </form>
+
+            <button id="continueBtn"
+                    class="btn btn-primary">
+                Continue →
+            </button>
+
+        </div>
+
+        <div class="onboarding-image">
+
+            <img src="assets/illustrations/companion.png"
+                 alt="Bloom Companion">
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Meet Bloom
+    ========================== -->
+
+    <section id="meetBloom"
+             class="meet-bloom hidden">
+
+        <div class="meet-card">
+
+            <div class="brand">
+
+                <img src="assets/logo/bloom-logo.png"
+                     class="logo-img"
+                     alt="Bloom Logo">
+
+                <span id="companionBrand" class="brand-name">Bloom</span>
+
+            </div>
+
+            <h1 class="hero-title">
+
+                Meet
+                <span id="companionGreeting">
+                    Bloom
+                </span>
+
+            </h1>
+
+            <p class="hero-description">
+    Hi <span id="userIntro">Friend</span>, I'm
+    <span id="companionIntro">Bloom</span>.
+
+    I'll check in with you every day, celebrate your wins, and support you through the tough days.
+</p>
+
+            <div class="meet-mascot">
+
+                <img src="assets/illustrations/bloom-meet.png"
+                     alt="Bloom">
+
+            </div>
+
+            <hr class="meet-divider">
+
+            <div class="meet-features">
+
+                <h2>
+                    Here's how we'll grow together
+                </h2>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i data-lucide="leaf"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Daily Mood Check-ins</h3>
+
+                        <p>
+                            A few moments every day
+                            to understand how you're feeling.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i data-lucide="lightbulb"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Wellness Insights</h3>
+
+                        <p>
+                            Gentle suggestions based on
+                            your daily habits.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Supportive Conversations</h3>
+
+                        <p>
+                            Whenever you need someone,
+                            I'll always be here.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button id="letsBeginBtn"
+                    class="btn btn-primary">
+
+                Let's check in together →
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Daily Check-in
+    ========================== -->
+
+    <section id="dailyCheckIn" class="daily-checkin hidden">
+      <div class="checkin-card">
+
+    <!-- Brand -->
+       <div class="brand">
+      <img
+        src="assets/logo/bloom-logo.png"
+        class="logo-img"
+        alt="Bloom logo"
+      />
+      <span id="companionBrand" class="brand-name">Bloom</span>
+    </div>
+
+    <!-- Greeting -->
+    <h1 id="userGreeting" class="hero-title">
+    Good Morning, Friend! 👋
+      </h1>
+
+    <p class="hero-description">
+      <span id="questionText">
+        How are you feeling today?
+      </span>
+    </p>
+
+    <!-- Progress -->
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+
+    <!-- Options -->
+    <div id="optionsContainer" class="options-container">
+
+      <!-- JS will generate options here -->
+
+    </div>
+
+    <!-- Continue -->
+    <button
+      id="nextQuestionBtn"
+      class="btn btn-primary"
+    >
+      Continue →
+    </button>
+
+  </div>
+</section>
+
+    </section>
+    <section id="dashboard" class="dashboard hidden">
+
+  <div class="dashboard-card">
+
+    <!-- Brand -->
+    <div class="brand">
+      <img
+        src="assets/logo/bloom-logo.png"
+        class="logo-img"
+        alt="Bloom Logo"
+      />
+      <span id="dashboardCompanionName" class="brand-name">Bloom</span>
+    </div>
+
+    <!-- Greeting -->
+    <h1 id="dashboardGreeting" class="hero-title">
+      Hello, Friend 👋
+    </h1>
+
+    <!-- Bloom Message -->
+    <div class="message-card">
+      <h2>🌱 Bloom says</h2>
+      <p id="dashboardMessage">
+        I'm happy you checked in today.
+      </p>
+    </div>
+
+    <!-- Today's Summary -->
+    <div class="summary-section">
+
+      <h2>Today's Summary</h2>
+
+      <div class="summary-grid">
+
+        <div class="summary-item">
+          <span>😊 Mood</span>
+          <strong id="summaryMood">--</strong>
+        </div>
+
+        <div class="summary-item">
+          <span>💧 Water</span>
+          <strong id="summaryWater">--</strong>
+        </div>
+
+        <div class="summary-item">
+          <span>😴 Sleep</span>
+          <strong id="summarySleep">--</strong>
+        </div>
+
+        <div class="summary-item">
+          <span>🏃 Exercise</span>
+          <strong id="summaryExercise">--</strong>
+        </div>
+
+        <div class="summary-item">
+          <span>🌿 Recreation</span>
+          <strong id="summaryOuting">--</strong>
+        </div>
+
+      </div>
+      <div class="history-section">
+         <div class="history-header">
+    <h2>🌿 Your Wellness Journey</h2>
+    <p>A look back at your recent check-ins.</p>
+</div>
+          <div id="historyContainer"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+    <script type="module" src="js/main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
