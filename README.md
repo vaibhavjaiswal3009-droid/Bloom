@@ -3,7 +3,7 @@
 > A calming, companion-based wellness application that encourages students to build healthy daily habits through personalized check-ins and thoughtful reflections.
 
 ---
-
+ 
 ## 📖 Overview
 
 Bloom is a frontend wellness application designed to make self-care feel simple, personal, and encouraging.
